@@ -8,12 +8,6 @@ public class Funcionario {
 	String rg;
 	Data dataDeEntrada;
 	
-	public double getSalario(double salario) {
-		
-		return this.salario;
-		
-	}
-	
 	public double calculaGanhoAnual() {
 		
 		return salario * 12;
@@ -28,10 +22,10 @@ public class Funcionario {
 	
 	public void mostra() {
 		
-		System.out.println("Nome do funcionário: " + this.nome);
-		System.out.println("Departamento do funcionário: " + this.departamento);
-		System.out.println("Salário: " + this.salario);
-		System.out.println("Salário anual: " + this.calculaGanhoAnual());
+		System.out.println("Nome do funcionÃ¡rio: " + this.nome);
+		System.out.println("Departamento do funcionÃ¡rio: " + this.departamento);
+		System.out.println("SalÃ¡rio: " + this.salario);
+		System.out.println("SalÃ¡rio anual: " + this.calculaGanhoAnual());
 		System.out.println("RG: " + this.rg);
 		System.out.print("Data de entrada: " + this.dataDeEntrada.getFormatada);
 		System.out.println("\n");
