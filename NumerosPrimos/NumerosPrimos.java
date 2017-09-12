@@ -2,7 +2,7 @@ package NumerosPrimos;
 
 public class NumerosPrimos {
 	
-	static int total= 1000;
+	static int total= 10000;
 	
 	public static void main(String[] args) {
 		
